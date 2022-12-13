@@ -38,7 +38,7 @@ public class omoktest3 {
 
 			System.out.println();
 			}
-		}
+		
 		// 사용자로부터 다음 모양의 입력을 요청한다.
 		// (x,y) > 3 4 -> nextInt(), nextInt()
 		

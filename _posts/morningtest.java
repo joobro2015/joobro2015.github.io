@@ -25,21 +25,23 @@ public class morningtest {
 		
 		// line ["20 30 29 39 49 38 10 19 87 29 38 27 8 90 87 "]
 //		max = Integer.parseInt(tokens[0]);
-
-//		for(int i = 0; i < tokens.length; i++) 
-//		}
+		for(int i = 0; i < tokens.length; i++) 
+			if(max < Integer.parseInt(tokens[i])) 
+				max = Integer.parseInt(tokens[i]);
+		
+				System.out.printf("max : %d", max);
+		
 //			if (Integer.parseInt(tokens[i]) == 10)
 //				index = i;
 				
 //				System.out.printf("index : %d 입니다.", index);
 //		}
-//		System.out.printf("max : %d", max);
 
-		while(scan.hasNext()) {
-			scan.next();
-			count++;
-		System.out.println(count);
-		}
-	}// main
+//		while(scan.hasNext()) {
+//			scan.next();
+//			count++;
+//		System.out.println(count);
+		
+}// main
 
 }// class
