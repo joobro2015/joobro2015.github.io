@@ -8,6 +8,7 @@ public class morningtest {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
+		
 		int count = 0;
 		int max = -1;
 		int index = -1;

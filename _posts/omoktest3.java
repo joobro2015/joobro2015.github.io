@@ -8,6 +8,7 @@ public class omoktest3 {
 
 //		----------------------------------------------------------------
 
+		
 		int ox, oy;
 
 		System.out.println("oy, ox를 입력해 주세요");
