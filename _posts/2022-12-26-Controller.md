@@ -19,6 +19,7 @@ public class SubwayController {
 		// 이동시 1개역씩 이동
 		SubwayService ss = new SubwayService();
 		
+		
 		System.out.println("---- Welcome Subway ----");
 		
 		ss.run();
